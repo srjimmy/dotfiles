@@ -1,0 +1,14 @@
+[user]
+    email = 72458798+SrJimmy@users.noreply.github.com
+    name = SrJimmy
+[core]
+    editor = code --wait
+    autocrlf = input
+[diff]
+  tool = vscode
+[difftool "vscode"]
+  cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+  tool = vscode
+[mergetool "vscode"]
+  cmd = code --wait $MERGED
