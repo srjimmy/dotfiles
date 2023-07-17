@@ -1,16 +1,16 @@
 [user]
-  email = 72458798+SrJimmy@users.noreply.github.com
-  name = SrJimmy
+    email = 72458798+srjimmy@users.noreply.github.com
+    name = srjimmy
 [core]
-  editor = code --wait
-  autocrlf = input
+    editor = code --wait
+    autocrlf = input
 [diff]
-  tool = vscode
+    tool = vscode
 [difftool "vscode"]
-  cmd = code --wait --diff $LOCAL $REMOTE
+    cmd = code --wait --diff $LOCAL $REMOTE
 [merge]
-  tool = vscode
+    tool = vscode
 [mergetool "vscode"]
-  cmd = code --wait $MERGED
+    cmd = code --wait $MERGED
 [init]
-	defaultBranch = master
+    defaultBranch = main
