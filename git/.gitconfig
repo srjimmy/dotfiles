@@ -11,6 +11,6 @@
 [merge]
     tool = vscode
 [mergetool "vscode"]
-    cmd = code --wait $MERGED
+    cmd = code --wait $REMOTE $LOCAl $BASE $MERGED
 [init]
     defaultBranch = main
