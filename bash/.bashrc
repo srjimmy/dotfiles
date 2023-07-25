@@ -46,11 +46,6 @@ alias treee="exa --tree --level=3 --git-ignore"
 alias treeee="exa --tree --level=4 --git-ignore"
 alias treeeee="exa --tree --level=5 --git-ignore"
 
-alias belp="bat --language help --style plain" # Requires bat
-function bman() {
-	man "$1" | bat --language Manpage --style plain
-}
-
 #Lists URLs that start with 'http' or 'https' on a webpage using cURL
 #
 #    Usage: listurls https://example.org
@@ -59,3 +54,5 @@ function listurls() { curl -s -f -L "$1" | grep -Eo '"(http|https)://[a-zA-Z0-9#
 
 # Starship
 eval "$(starship init bash)"
+
+. "$HOME/.cargo/env"
