@@ -27,9 +27,9 @@ fi
 unset rc
 
 # Aliases
-alias ls="exa -g"
-alias ll="exa -gl"
-alias la="exa -gla"
+alias ls="eza -g"
+alias ll="eza -gl"
+alias la="eza -gla"
 
 alias vim="nvim"
 
@@ -41,10 +41,10 @@ alias gl='git log'
 
 alias ip="ip -c"
 
-alias tree="exa --tree --level=2 --git-ignore"
-alias treee="exa --tree --level=3 --git-ignore"
-alias treeee="exa --tree --level=4 --git-ignore"
-alias treeeee="exa --tree --level=5 --git-ignore"
+alias tree="eza --tree --level=2 --git-ignore"
+alias treee="eza --tree --level=3 --git-ignore"
+alias treeee="eza --tree --level=4 --git-ignore"
+alias treeeee="eza --tree --level=5 --git-ignore"
 
 #Lists URLs that start with 'http' or 'https' on a webpage using cURL
 #
